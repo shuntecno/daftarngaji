@@ -1,0 +1,279 @@
+body{
+	/*padding-top: 1rem;*/
+	font-family: 'Lobster', cursive;
+	background-color: #F2F2F2;
+
+
+}
+.background{
+
+
+}
+p{
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+
+#main{
+	padding-top: 1rem;
+	background-image: url('masjid/main-background.jpeg') !important;
+
+}
+
+.navbar{
+	background-image: url('masjid/main-background.jpeg') !important;
+
+}
+.btn{
+	font-family: sans-serif;
+}
+.konten{
+	padding: 1rem;
+	font-family: sans-serif;
+}
+/*h1 { font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h3 { font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; }
+p { font-family: sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; }
+blockquote { font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; }
+pre { font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }*/
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+
+	> .col,
+	> [class*="col-"] {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+.footer{
+	background-color: #f8a10e;
+	color: #fff;
+}
+
+.footer a{
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.copyright{
+	background-color: #396fc0;
+	color: #fff;
+	/*height: 20px;*/
+}
+
+/*#footer{
+	background-color: red;
+	height: 100px;
+}*/
+
+.fb-profile-block {
+	font-family: sans-serif;
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+.cover-container{
+    /* background: #1E90FF;
+    background: -webkit-radial-gradient(bottom, #73D6F5 12%, #1E90FF);
+    background: radial-gradient(at bottom, #73D6F5 12%, #1E90FF); */
+	/* background-image: url('masjid/cover.jpg') !important; */
+	background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.fb-profile-block-thumb{
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+.fb-profile-block-menu {
+  border: 1px solid #d3d6db;
+  border-radius: 0 0 3px 3px;
+}
+.profile-img a{
+    bottom: 15px;
+    box-shadow: none;
+	display: block;
+	left: 15px;
+	padding:1px;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+	z-index:9;
+}
+.profile-img img {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07);
+  height:98px;
+  padding: 5px;
+  width:98px;
+}
+.profile-name {
+  top: 85px;
+left: 130px;
+position: absolute;
+}
+.profile-name h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  /*max-width: 275px;*/
+  position: relative;
+  text-transform: uppercase;
+}
+.fb-profile-block-menu{
+  height: 44px;
+  position: relative;
+  width:100%;
+  overflow:hidden;
+ }
+.block-menu {
+  clear: right;
+  padding-left: 205px;
+}
+.block-menu ul{
+	margin:0;
+	padding:0;
+}
+.block-menu ul li{
+	display:inline-block;
+}
+.block-menu ul li a {
+  border-right: 1px solid #e9eaed;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 3.0;
+  padding: 0 17px;
+  position: relative;
+  vertical-align: middle;
+  white-space: nowrap;
+  color:#4b4f56;
+  text-transform:capitalize;
+}
+.block-menu ul li:first-child a{
+  border-left: 1px solid #e9eaed;
+}
+
+.dropdown-menu.show {
+
+	left: -40px !important;
+
+
+}
+
+@media (max-width: 576px) {
+.kajian{
+
+width: 25rem !important;
+height: 25rem !important;
+
+}
+
+
+.slider {
+    max-height: 300px !important;
+		min-height: 300px !important;
+}
+
+ }
+
+
+ @media (max-width: 768px)  {
+
+
+	 .kajian{
+
+	 width: 25rem !important;
+	 height: 25rem !important;
+
+	 }
+
+
+	 .slider {
+	     max-height: 300px !important;
+	 		min-height: 300px !important;
+	 }
+
+
+  }
+
+
+
+ .page-item.active .page-link {
+    z-index: 2;
+    color: black;
+		background-color: orange;
+	 border-color: orange;
+
+}
+
+.page-link {
+	 z-index: 2;
+	 color: black;
+	 background-color: white;
+	border-color: orange;
+
+}
+
+.kajian {
+    min-height: 285px !important;
+}
+
+.slider {
+    max-height: 350px;
+		min-height: 350px;
+}
+
+.table th {
+    padding: .3rem;
+    width: 100px;
+}
+.table td {
+    padding: .3rem;
+
+}
+
+table p{
+	margin-top: 5px !important;
+	margin-bottom: : 5px !important;
+}
+
+.info-konten{
+
+	background-color: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.kajian{
+
+	width: 25rem !important;
+	height: 20rem !important;
+}
+		 .kajian-info{
+			 height: 600px !important;
+			 width: 600px !important;
+
+		 }
+
+
+		 .slider {
+				 max-height: 300px !important;
+				min-height: 300px !important;
+		 }
+
+
+
+ }
